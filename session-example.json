@@ -1,14 +1,14 @@
 {
     "timestamp": "2024-03-18T10:30:45.123456",
     "data": {
-        "uid": "130266539836519xxx",
+        "uid": "1302665398365192192",
         "browser_id": "550e8400-e29b-41d4-a716-446655440000",
         "session_start": 1731661186,
         "session_expire": 1732870786,
         "last_ping": 1731661486,
         "status": "CONNECTED",
         "proxy_info": {
-            "ip": "123.45.67.89",
+            "ip": "140.213.115.122",
             "port": "8080",
             "last_success": "2024-03-18T10:30:45.123456",
             "fail_count": 0
