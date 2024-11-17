@@ -6,7 +6,7 @@ import uuid
 from loguru import logger
 
 # Constants
-NP_TOKEN = "WRITE_YOUR_NP_TOKEN_HERE"
+NP_TOKEN = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMzAyNjY1Mzk4MzY1MTkyMTkyIiwiaWF0IjoxNzMxNjYxMTg2LCJleHAiOjE3MzI4NzA3ODZ9.EuiVpbXQaX-sdQjpCjXGDaNRAs5ctpscnb1-6GN-MLLVRoRkyQdUkzrUJeXqFWXZzxUFe76PW_ZxAexmG0HDNw"
 PING_INTERVAL = 30  # seconds
 RETRIES = 60  # Global retry counter for ping failures
 
@@ -22,7 +22,7 @@ CONNECTION_STATES = {
 }
 
 status_connect = CONNECTION_STATES["NONE_CONNECTION"]
-token_info = eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMzAyNjY1Mzk4MzY1MTkyMTkyIiwiaWF0IjoxNzMxNjYxMTg2LCJleHAiOjE3MzI4NzA3ODZ9.EuiVpbXQaX-sdQjpCjXGDaNRAs5ctpscnb1-6GN-MLLVRoRkyQdUkzrUJeXqFWXZzxUFe76PW_ZxAexmG0HDNw
+token_info = NP_TOKEN
 browser_id = None
 account_info = {}
 
