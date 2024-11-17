@@ -1,0 +1,14 @@
+2024-03-18 10:30:45.123 | INFO     | __main__:main:123 - Starting NodePay with 10 active proxies
+2024-03-18 10:30:45.234 | INFO     | __main__:is_valid_proxy:45 - Validating proxy: 123.45.67.89:8080
+2024-03-18 10:30:45.345 | INFO     | __main__:render_profile_info:67 - Successfully loaded session for proxy 123.45.67.89:8080
+2024-03-18 10:30:45.456 | INFO     | __main__:ping:89 - Ping successful via proxy 123.45.67.89:8080: {"code": 0, "message": "success"}
+2024-03-18 10:30:48.567 | WARNING  | __main__:call_api:234 - Retry 1/3 for proxy 45.67.89.12:8080 - Connection timeout
+2024-03-18 10:30:51.678 | ERROR    | __main__:call_api:256 - Proxy error: 45.67.89.12:8080 - Connection refused
+2024-03-18 10:30:51.789 | INFO     | __main__:remove_proxy_from_list:178 - Removed proxy 45.67.89.12:8080 from list
+2024-03-18 10:31:15.890 | INFO     | __main__:ping:89 - Ping successful via proxy 123.45.67.89:8080: {"code": 0, "message": "success"}
+2024-03-18 10:31:45.901 | INFO     | __main__:render_profile_info:67 - New proxy added to active list: 89.12.34.56:8080
+2024-03-18 10:32:15.012 | WARNING  | __main__:handle_ping_fail:145 - Ping failed for proxy 67.89.12.34:8080 - Retry 1/60
+2024-03-18 10:32:45.123 | ERROR    | __main__:handle_logout:167 - Session expired for proxy 67.89.12.34:8080 - Logging out
+2024-03-18 10:33:15.234 | INFO     | __main__:save_session_info:89 - Updated session info for proxy 123.45.67.89:8080
+2024-03-18 10:33:45.345 | CRITICAL | __main__:main:345 - Unexpected error: Network connectivity lost - Attempting recovery
+2024-03-18 10:34:15.456 | INFO     | __main__:main:356 - Network connectivity restored - Resuming operations
